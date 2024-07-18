@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int findLargest(int arr[], int size) {
+    int largest = arr[0];
+    for (int i = 1; i < size; i++) {
+        if (arr[i] > largest) {
+            largest = arr[i];
+        }
+    }
+    return largest;
+}
+
+int main() {
+    int array[] = {3, 5, 7, 2, 8};
+    int size = sizeof(array) / sizeof(array[0]);
+    printf("Y.Nanda Kishore Reddy-192211435\n");
+    printf("Largest element in the array: %d\n", findLargest(array, size));
+    return 0;
+}
