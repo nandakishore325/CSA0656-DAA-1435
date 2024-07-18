@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdbool.h>
+
+bool isPrime(int num) {
+    if (num <= 1) return false;
+    for (int i = 2; i * i <= num; i++) {
+        if (num % i == 0) return false;
+    }
+    return true;
+}
+
+int main() {
+    int number = 29;
+    printf("Y.Nanda Kishore Reddy-192211435\n");
+    printf("%d is a prime number: %s\n", number, isPrime(number) ? "Yes" : "No");
+    return 0;
+}
