@@ -44,7 +44,7 @@ void mergeSort(int arr[], int l, int r) {
 }
 
 int main() {
-	printf("Manokarthik - 192225077\n");
+	printf("Y.Nanda Kishore Reddy - 192211435\n");
     int arr[] = {12, 11, 13, 5, 6, 7};
     int i;
     int arr_size = sizeof(arr) / sizeof(arr[0]);
